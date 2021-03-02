@@ -19,15 +19,15 @@ const cities = [
 const landmarks = [
     {
         name: "The Sky Tower",
-        location: "Auckland"
+        location: "Located in Auckland"
     },
     {
         name: "Moeraki Boulders",
-        location: "Otago coast on the South Island of New Zealand"
+        location: "Located at Otago coast on the South Island of New Zealand"
     },
     {
         name: "Tokatoka Peak",
-        location: "Tokatoka Peak is in Northland"
+        location: "Located in Tokatoka Peak is in Northland"
     }
 ]
 
