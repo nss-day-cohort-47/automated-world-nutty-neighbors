@@ -19,43 +19,43 @@ const cities = [
 const landmarks = [
   {
     name: "Cologne Cathedral",
-    location: "The construction of Cologne Cathedral lasted from 1248 to 1880 and too more than 600 years to build."
+    location: "Located in Cologne, North Rhine-Westphalia, Germany"
   },
   {
     name: "Brandenburg Gate",
-    location: "The Brandenburg Gate is Berlin’s most famous landmark and where visitors could look behind the Iron Curtain during the Cold War."
+    location: "Located in Berlin, Germany"
   },
   {
     name: "Eltz Castle",
-    location: "It looks straight out of a picture book and has 850 years of history."
+    location: "Located above the Moselle River between Koblenz and Trier, Germany."
   }
 ]
 
 const famousCitizens = [
   {
     name: "Adolf Hitler",
-    occupation: "Actor",
-    age: 56
+    occupation: "Was a dictator of Germany.",
+    age: '56'
   },
   {
     name: "Albert Einstein",
-    occupation: "Mathematician and scientist",
-    age: 76
+    occupation: "Was a mathematician and scientist",
+    age: '76'
   },
   {
     name: "Johann Wolfgang von Goethe",
-    occupation: "poet, playwright, and novelist",
-    age: 82
+    occupation: "Was a poet, playwright, and novelist",
+    age: '82'
   }
 ]
 
-export const getLandmarkFunction = () => {
-  return lanmarks;
+export const getLandmarksData = () => {
+  return landmarks;
 }
-export const getCityFunction = () => {
-  return citys;
+export const getCitiesData = () => {
+  return cities;
 }
-export const getFamousCitizens = () => {
-  return citizens;
+export const getFamousCitizenData = () => {
+  return famousCitizens;
 }
 
