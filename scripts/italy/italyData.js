@@ -19,15 +19,15 @@ const cities = [
 const landmarks = [
     {
         name: "Colosseum",
-        location: "Rome"
+        location: "Located in Rome"
     },
     {
         name: "St. Mark's Basilica",
-        location: "Northern Italy"
+        location: "Located in Northern Italy"
     },
     {
         name: "Cathedral of Santa Maria del Fiore",
-        location: "Florence, Italy"
+        location: "Located in Florence, Italy"
     }
 ]
 
