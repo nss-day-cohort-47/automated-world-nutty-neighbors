@@ -42,3 +42,44 @@ ul {
   li a:hover {
 	background-color: #111;
   }
+
+  .countryInfo > * {
+	  margin: 2em;
+	padding: .5em;
+	border:#111 2px solid;
+	flex-basis: 25%;
+}
+
+.countryInfo {
+	display:flex;
+	justify-content: space-evenly;
+  }
+
+  .landmarks,
+  .citizens {
+	text-align: center;
+  }
+
+  .title {
+	display:flex;
+	justify-content: flex-start;
+  }
+
+  .title > img {
+	width: 2.5%;
+	height: 2.5%;
+  }
+
+  .countryImage {
+	width: 60%;
+	max-height: auto;
+}
+
+.image {
+	display:flex;
+	justify-content: center;
+}
+
+h2 {
+	text-align: center;
+}
