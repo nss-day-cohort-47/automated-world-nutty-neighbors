@@ -53,10 +53,10 @@ export const getCitiesData = () => {
     return cities;
 };
 
-export const getLandmarksData = () => {
+export const getLandmarkData = () => {
     return landmarks;
 };
 
-export const getCitizensData = () => {
+export const getCitizenData = () => {
     return famousCitizens;
 };

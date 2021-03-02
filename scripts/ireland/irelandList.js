@@ -1,7 +1,7 @@
-import { getCitiesData } from "./irelandData.js";
-import { cityCard } from "./irelandMain.js";
+import { getCitiesData, getCitizenData, getLandmarkData } from "./irelandData.js";
+import { cityCard, landmarkCard, citizenCard } from "./irelandHTML.js";
 
-const addCityDOM = () => {
+export const addCityDOM = () => {
     // Get a reference to the location on the DOM you want to display the list of cities
     const cityElement = document.querySelector(".cities");
     // create a variable to store the HTML representation in
@@ -15,4 +15,24 @@ const addCityDOM = () => {
     };
     // set the DOM equal to the variable containing fish html representation
     cityElement.innerHTML = cityHTMLRep;
+};
+
+export const addLandmarkDOM = () => {
+    const landmarkElement = document.querySelector(".landmarks");
+    let landmarkHTMLRep = "<h3>Landmarks</h3>";
+    const landmarkArray= getLandmarkData();
+    for(const landmark of landmarkArray) {
+        landmarkHTMLRep += landmarkCard(landmark);
+    };
+    landmarkElement.innerHTML = landmarkHTMLRep;
+};
+
+export const addCitizenDOM = () => {
+    const citizenElement = document.querySelector(".citizens");
+    let citizenHTMLRep = "<h3>Famous Citizens</h3>";
+    const citizenArray= getCitizenData();
+    for(const citizen of citizenArray) {
+        citizenHTMLRep += citizenCard(citizen);
+    };
+    citizenElement.innerHTML = citizenHTMLRep;
 };
