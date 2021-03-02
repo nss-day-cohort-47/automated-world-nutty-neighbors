@@ -49,15 +49,15 @@ const famousCitizens = [
     }
 ]
 
-const getCities = () => {
+export const getCitiesData = () => {
 return cities 
 };
 
-const getLandmarks = () => {
+export const getLandmarksData = () => {
     return landmarks
 };
 
-const getFamousCitzen = () => {
-    return famousCitzen
+export const getFamousCitizenData = () => {
+    return famousCitizens
 };
      
