@@ -33,7 +33,7 @@ const landmarks = [
         name: "Blarney Stone and Castle",
         location: "Blarney, County Cork, Ireland"
     }
-]
+];
 
 const famousCitizens = [
     {
@@ -51,4 +51,4 @@ const famousCitizens = [
         occupation: "Talkshow Host",
         age: 57
     }
-]
+];
