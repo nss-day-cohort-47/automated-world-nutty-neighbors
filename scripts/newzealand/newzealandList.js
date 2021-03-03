@@ -29,7 +29,7 @@ export const addLandmarksDom = () => {
 }
 
 export const addCitizenDom = () => {
-    const famousCitizensElement = document.querySelector(".famousCitizens");
+    const famousCitizensElement = document.querySelector(".citizens");
     let famousCitizensHTMLRep = "<h3>famousCitizens</h3>";
     const famousCitizensArray = getFamousCitizensData();
     for(const famousCitizens of famousCitizensArray) {
