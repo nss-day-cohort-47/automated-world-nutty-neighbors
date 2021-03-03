@@ -55,7 +55,7 @@ ul {
 	justify-content: space-evenly;
   }
 
-  .landmarks,
+  
   .citizens {
 	text-align: center;
   }
@@ -82,4 +82,12 @@ ul {
 
 h2 {
 	text-align: center;
+}
+
+footer {
+	background-color: #404040;
+	color: white;
+	padding-left: 2%;
+	padding-top: .5%;
+	padding-bottom: .5%;
 }
