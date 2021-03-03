@@ -42,3 +42,8 @@ ul {
   li a:hover {
 	background-color: #111;
   }
+
+  .title > img {
+    width: 5%;
+    height: 5%;
+  }
